@@ -7,7 +7,7 @@ public class BandageRibbonExtruder : MonoBehaviour
 {
     public SplineContainer splineContainer;
     public float wrapSpeed = 0.5f;
-    public float bandageWidth = 0.1f;
+    public float bandageWidth = 0.5f;
     public float uvTilingFactor = 5f;  // How many times the texture repeats along the length
 
     private MeshFilter meshFilter;
